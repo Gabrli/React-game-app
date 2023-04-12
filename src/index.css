@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left,#FFF4E0,#F4B183 );
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.web-app-grid-container{
+  max-width:1280px;
+  min-width:90%;
+  height:100%;
+  margin:5%;
+  
+}
+.card-box{
+  width: 400px;
+  height: 400px;
+  background-color: #A75D5D;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto ;
+  grid-template-areas: 
+  "a1 a2 a3 ";
+  
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 135px;
+  margin-bottom: auto;
+
+
+}
+.none{
+  color: transparent;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  background-color: #D3756B;
+  border-radius: 16px;
+  font-size: 20px;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+}
+.web-app-title{
+  color: #fff;
+  
+}
+.btn-game{
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  transition: .2s ease-in-out;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 16px;
+}
+.btn-game:hover{
+  color: palevioletred;
+  transition: .2s ease-in-out;
+  border-color: palevioletred;
+}
+.active{
+  color: #fff;
+}
+.footer{
+  height: 40px;
+  color: #fff;
+  scrollbar-darkshadow-color: #52006A;
+  border-radius: 16px;
+ 
+  text-align:center;
+  background: linear-gradient(to right, #B46060, #FFBF9B);
+  position: relative;
+  top: 40px;
+}
+.footer a {
+  color: lightblue;
+  text-decoration: none;
+  
+}
+.footer-text {
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+.header{
+  position: relative;
+  top: 20px;
+  text-align:center;
+}
+.btn-section{
+  position: relative;
+  top: 70px;
+  text-align: center;
+}
+.text-time{
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  
+  position: relative;
+  top: 20px
+}
+.time-info{
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  right: 70px;
+  top: 60px
+}
