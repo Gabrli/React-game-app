@@ -3,6 +3,7 @@
 This project is it memory game which was create in React.js.
 The whole app has clear and simple design.
 Whole code in javaScript is not complicated.
+Game is realy easy in getting around app
 
 SCREENS:
 
