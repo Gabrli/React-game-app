@@ -14,10 +14,10 @@ Game is realy easy in getting around app.
 
 
 #  TECHNOLOGIES: 
-HTML
-JavaScript
-React.js
-CSS
+HTML, 
+JavaScript, 
+React.js, 
+CSS 
 
 
 
