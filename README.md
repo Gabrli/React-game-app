@@ -1,4 +1,4 @@
-#  App:
+#  Link to app:
 #  https://Gabrli.github.io/React-game-app
 
 #  About app
@@ -7,7 +7,7 @@ The whole app has clear and simple design.
 Whole code in javaScript is not complicated.
 Game is realy easy in getting around app
 
-#TECHNOLOGIES: 
+#  TECHNOLOGIES: 
 HTML
 JavaScript
 React.js
