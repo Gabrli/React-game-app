@@ -5,7 +5,7 @@ The whole app has clear and simple design.
 Whole code in javaScript is not complicated.
 Game is realy easy in getting around app
 
-#SCREENS:
+#  SCREENS:
 
 ![image](https://user-images.githubusercontent.com/110058841/231695608-07d6fba7-e8e8-4486-93f4-70bd01eedca2.png)
 
