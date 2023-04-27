@@ -93,7 +93,8 @@ function MainGame(){
 
       const RemoveList = tiles.map(card => {
         if(choiceOne === null && choiceTwo === null){
-          return {...card, matching: false} 
+          return {...card, matching: false}
+            
           
         }
       })
