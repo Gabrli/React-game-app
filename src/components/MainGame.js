@@ -5,35 +5,34 @@ import React, { useEffect, useState } from 'react';
 function MainGame(){
 
 
-    const [tiles, setTiles] = useState([
-        {id: '1', text: '🎃', matching: false},
-        {id: '1', text: '🎃', matching: false},
-        {id: '2', text: '🤖', matching: false},
-        {id: '3', text: '👾', matching: false},
-        {id: '2', text: '🤖', matching: false},
-        {id: '3', text: '👾', matching: false},
-        {id: '4', text: '👽', matching: false},
-        {id: '5', text: '🤡', matching: false},
-        {id: '5', text: '🤡', matching: false},
-        {id: '4', text: '👽', matching: false},
-        {id: '6', text: '👻', matching: false},
-        {id: '6', text: '👻', matching: false},
-        
-    ])
+  const [tiles, setTiles] = useState([
+    {uid: '1', id: '1', text: '🎃', matching: false},
+    {uid: '11', id: '1', text: '🎃', matching: false},
+    {uid: '2', id: '2', text: '🤖', matching: false},
+    {uid: '22', id: '3', text: '👾', matching: false},
+    {uid: '3', id: '2', text: '🤖', matching: false},
+    {uid: '33', id: '3', text: '👾', matching: false},
+    {uid: '4', id: '4', text: '👽', matching: false},
+    {uid: '44', id: '5', text: '🤡', matching: false},
+    {uid: '5', id: '5', text: '🤡', matching: false},
+    {uid: '55', id: '4', text: '👽', matching: false},
+    {uid: '6', id: '6', text: '👻', matching: false},
+    {uid: '66', id: '6', text: '👻', matching: false},  
+  ])
 
-    const [choiceOne, setchoiceOne] = useState(null)
-    const [choiceTwo, setChoiceTwo] = useState(null)
+  const [choiceOne, setchoiceOne] = useState(null)
+  const [choiceTwo, setChoiceTwo] = useState(null)
 
-    let [time , setTime] = useState(0)
-    let [score, setScore] = useState(1)
-  
- 
-    
+  let [time , setTime] = useState(0)
+  let [score, setScore] = useState(1)
 
-    useEffect(() => {
 
-      if(choiceOne && choiceTwo){
-        if(choiceOne.id === choiceTwo.id){
+
+
+  useEffect(() => {
+
+  if(choiceOne && choiceTwo){
+    if((choiceOne.id === choiceTwo.id) && (choiceOne.uid !== choiceTwo.uid)){
           setTiles(prevcard => {
             return prevcard.map(card => {
               if(card.id === choiceOne.id){
