@@ -27,6 +27,7 @@ code {
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  cursor: pointer;
   grid-template-rows: auto auto auto ;
   grid-template-areas: 
   "a1 a2 a3 ";
@@ -47,6 +48,7 @@ code {
   background-color: #D3756B;
   border-radius: 16px;
   font-size: 20px;
+  cursor: pointer;
   justify-content: center;
   margin: 10px;
   position: relative;
@@ -76,6 +78,7 @@ code {
 }
 .active{
   color: #fff;
+  cursor: pointer;
 }
 .footer{
   height: 40px;

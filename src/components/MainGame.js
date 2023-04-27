@@ -69,6 +69,8 @@ function MainGame(){
 
     }, [choiceOne, choiceTwo])
 
+  
+
    
     const StartTime = () => {
       setInterval(() => {
